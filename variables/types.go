@@ -5,6 +5,8 @@ import (
 	"math/cmplx"
 )
 
+const Pi = 3.14
+
 var (
 	tobe       bool       = false
 	maxint     uint64     = 1<<64 - 1
