@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func something() {
 	var a [5]int
 	a[0] = 45
 	a[1] = 90
@@ -17,5 +17,6 @@ func main() {
 	fmt.Println(primes)
 	fmt.Println(len(b))
 	fmt.Println(cap(b))
+	fmt.Println(append(b, 89))
 
 }
