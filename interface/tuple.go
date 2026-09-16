@@ -22,7 +22,7 @@ func (c cat) MakeNoise() string {
 	return "Meow!"
 }
 
-func main() {
+func main2() {
 	var n noisemaker
 
 	n = dog{}

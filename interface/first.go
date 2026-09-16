@@ -16,7 +16,7 @@ func (t T) M() {
 	fmt.Println(t.S)
 }
 
-func main1() {
+func main14() {
 
 	var i I = T{"hello dfn world"}
 	i.M()
