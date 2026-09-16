@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main() {
+func main5() {
 	var i interface{}
 	i = 42
 	describe1(i)
